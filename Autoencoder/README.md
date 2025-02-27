@@ -1,7 +1,7 @@
 ## 🔍 Autoencoder란?
 Autoencoder(오토인코더)는 **비지도 학습(Unsupervised Learning)**을 활용하여 데이터의 중요한 특징을 학습하는 **신경망 기반 차원 축소 모델**입니다. 데이터 압축, 노이즈 제거, 특징 학습 등에 널리 사용됩니다.
 
-## 🏗️ Autoencoder 구조
+## 📌 Autoencoder 구조
 Autoencoder는 일반적으로 **Encoder-Decoder 구조**로 이루어져 있으며, 입력 데이터를 압축한 후 다시 복원하는 과정에서 데이터의 중요한 특징을 학습합니다.
 
 ### 🔹 1) 인코더(Encoder)
