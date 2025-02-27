@@ -1,5 +1,3 @@
-# Autoencoder
-
 ## 🔍 Autoencoder란?
 Autoencoder(오토인코더)는 **비지도 학습(Unsupervised Learning)**을 활용하여 데이터의 중요한 특징을 학습하는 **신경망 기반 차원 축소 모델**입니다. 데이터 압축, 노이즈 제거, 특징 학습 등에 널리 사용됩니다.
 
@@ -18,28 +16,6 @@ Autoencoder는 일반적으로 **Encoder-Decoder 구조**로 이루어져 있으
 ### 🔹 3) 손실 함수(Loss Function)
 - Autoencoder의 목표는 입력과 출력 간의 **재구성 오차(Reconstruction Error)**를 최소화하는 것입니다.
 - 일반적으로 `MSE(Mean Squared Error)` 또는 `Binary Cross-Entropy` 손실 함수를 사용합니다.
-
-## 🔬 Autoencoder 수학적 표현
-Autoencoder는 두 개의 함수로 표현할 수 있습니다.
-
-1. **인코더(Encoder) 함수**:  
-   \[
-   h = f(Wx + b)
-   \]
-   - 입력 \( x \)를 가중치 \( W \)와 편향 \( b \)를 적용하여 잠재 공간 표현 \( h \)를 생성합니다.
-   - 활성화 함수 \( f(\cdot) \)는 ReLU, Sigmoid 등을 사용할 수 있습니다.
-
-2. **디코더(Decoder) 함수**:  
-   \[
-   x' = g(W'h + b')
-   \]
-   - \( h \)를 다시 원본 차원 \( x' \)으로 복원합니다.
-
-3. **손실 함수**:  
-   \[
-   L = || x - x' ||^2
-   \]
-   - 원본 입력 \( x \)와 복원된 \( x' \) 간의 차이를 최소화하는 방향으로 학습됩니다.
 
 ## 📌 Autoencoder의 주요 유형
 Autoencoder는 목적에 따라 여러 변형이 존재합니다.
