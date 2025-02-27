@@ -32,7 +32,7 @@ Autoencoder는 목적에 따라 여러 변형이 존재합니다.
 - 입력 데이터의 분포를 학습하여 샘플링이 가능한 확률 모델을 생성합니다.
 - 이미지 생성, 데이터 증강 등에 활용됩니다.
 
-## 📊 Autoencoder의 활용 사례
+## 📌 Autoencoder의 활용 사례
 - **이상 탐지(Anommaly Detection)**: 훈련의 일부로 재구성 오차(Reconstruction error)를 최소화하려 하므로 재구성 손실의 크기를 통하여 이상치를 탐지 가능
 - **차원 축소(Dimensionality Reduction)**: PCA(주성분 분석) 대체 가능
 - **노이즈 제거(Denoising)**: 이미지 및 음성 신호의 잡음 제거
