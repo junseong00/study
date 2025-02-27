@@ -5,7 +5,7 @@ Autoencoder는 **비지도 학습**을 활용하여 데이터의 중요한 특�
 Autoencoder는 일반적으로 **Encoder-Decoder 구조**로 이루어져 있으며, 입력 데이터를 압축한 후 다시 복원하는 과정에서 데이터의 중요한 특징을 학습한다.
 
 ### 1) 인코더(Encoder)
-- 입력 데이터를 더 작은 차원의 **잠재 공간(Latent Space)**으로 변환.
+- 입력 데이터를 더 작은 차원의 **잠재 공간(Latent Space)** 으로 변환.
 - 차원 축소와 정보 요약 담당.
 - 주로 `Dense`, `Convolutional`, `Recurrent` 레이어를 사용한다.
 
@@ -14,7 +14,7 @@ Autoencoder는 일반적으로 **Encoder-Decoder 구조**로 이루어져 있으
 - 인코더가 학습한 정보만을 기반으로 원본 재구성.
 
 ### 3) 손실 함수(Loss Function)
-- Autoencoder의 목표는 입력과 출력 간의 **재구성 오차(Reconstruction Error)**를 최소화하는 것이다.
+- Autoencoder의 목표는 입력과 출력 간의 **재구성 오차(Reconstruction Error)** 를 최소화하는 것이다.
 - 일반적으로 `MSE(Mean Squared Error)` 또는 `Binary Cross-Entropy` 손실 함수를 사용한다.
 
 ## 📌 Autoencoder의 주요 유형
