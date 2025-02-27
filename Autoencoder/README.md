@@ -33,13 +33,8 @@ Autoencoder는 목적에 따라 여러 변형이 존재합니다.
 - 이미지 생성, 데이터 증강 등에 활용됩니다.
 
 ## 📊 Autoencoder의 활용 사례
+- **이상 탐지(Anommaly Detection)**: 훈련의 일부로 재구성 오차(Reconstruction error)를 최소화하려 하므로 재구성 손실의 크기를 통하여 이상치를 탐지 가능
 - **차원 축소(Dimensionality Reduction)**: PCA(주성분 분석) 대체 가능
 - **노이즈 제거(Denoising)**: 이미지 및 음성 신호의 잡음 제거
 - **생성 모델(Generative Models)**: 새로운 데이터 샘플 생성
 - **추천 시스템(Recommendation Systems)**: 사용자 선호도 분석
-
-## 📎 참고 문헌 및 자료
-- [Autoencoder 논문: Hinton et al., 2006](https://www.cs.toronto.edu/~hinton/science.pdf)
-- [딥러닝 기반 차원 축소 개념](https://arxiv.org/abs/1312.6114)
-- [TensorFlow Autoencoder 예제](https://www.tensorflow.org/tutorials/generative/autoencoder)
-
