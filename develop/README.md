@@ -11,3 +11,32 @@
 | **SQL 기본 및 활용** | SQL 기본 | 관계형 데이터베이스 개요, SELECT 문, 함수, WHERE 절, GROUP BY, HAVING 절, ORDER BY 절, 조인, 표준 조인 |
 |  | SQL 활용 | 서브쿼리, 집합 연산자, 그룹 함수, 윈도우 함수, Top N 쿼리, 계층형 질의와 셀프 조인, PIVOT 절과 UNPIVOT 절, 정규 표현식 |
 |  | 관리 구문 | DML, TCL, DDL, DCL |
+
+### 3. 출제 문항 및 배점
+
+# SQL 개발자 필기 시험 문항 및 배점
+
+<table>
+  <tr>
+    <th>과목명</th>
+    <th>문항수</th>
+    <th>배점</th>
+    <th rowspan="3">검정시험시간</th>
+  </tr>
+  <tr>
+    <td>데이터 모델링의 이해</td>
+    <td>10</td>
+    <td>20 (문항당 2점)</td>
+  </tr>
+  <tr>
+    <td>SQL 기본 및 활용</td>
+    <td>40</td>
+    <td>80 (문항당 2점)</td>
+  </tr>
+  <tr>
+    <td><b>계</b></td>
+    <td><b>50</b></td>
+    <td><b>100</b></td>
+    <td rowspan="1">90분 (1시간 30분)</td>
+  </tr>
+</table>
