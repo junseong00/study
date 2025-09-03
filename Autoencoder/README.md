@@ -1,7 +1,7 @@
-## 🔍 Autoencoder란?
+## Autoencoder란?
 Autoencoder는 **비지도 학습**을 활용하여 데이터의 중요한 특징을 학습하는 **신경망 기반 차원 축소 모델**이다. 데이터 압축, 노이즈 제거, 특징 학습 등에 널리 사용된다.
 
-## 📌 Autoencoder 구조
+## Autoencoder 구조
 Autoencoder는 일반적으로 **Encoder-Decoder 구조**로 이루어져 있으며, 입력 데이터를 압축한 후 다시 복원하는 과정에서 데이터의 중요한 특징을 학습한다.
 
 ### 1) 인코더(Encoder)
@@ -17,7 +17,7 @@ Autoencoder는 일반적으로 **Encoder-Decoder 구조**로 이루어져 있으
 - Autoencoder의 목표는 입력과 출력 간의 **재구성 오차(Reconstruction Error)** 를 최소화하는 것이다.
 - 일반적으로 `MSE(Mean Squared Error)` 또는 `Binary Cross-Entropy` 손실 함수를 사용한다.
 
-## 📌 Autoencoder의 주요 유형
+## Autoencoder의 주요 유형
 
 ### 1) Sparse Autoencoder (희소 오토인코더)
 - 활성 뉴런 수를 제한하여 특정 특징만을 학습하도록 유도.
@@ -31,7 +31,7 @@ Autoencoder는 일반적으로 **Encoder-Decoder 구조**로 이루어져 있으
 - 입력 데이터의 분포를 학습하여 샘플링이 가능한 확률 모델을 생성.
 - 이미지 생성, 데이터 증강 등에 활용.
 
-## 📌 Autoencoder의 활용 사례
+## Autoencoder의 활용 사례
 - **이상 탐지(Anommaly Detection)**: 훈련의 일부로 재구성 오차(Reconstruction error)를 최소화하려 하므로 재구성 손실의 크기를 통하여 이상치를 탐지 가능
 - **차원 축소(Dimensionality Reduction)**: PCA(주성분 분석) 대체 가능
 - **노이즈 제거(Denoising)**: 이미지 및 음성 신호의 잡음 제거
