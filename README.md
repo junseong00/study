@@ -15,14 +15,7 @@
 - HBNU **CE** · **RL × Quantum** · **Full-stack (Spring Boot / SvelteKit)**
 - Building **Smart Bathing Robot** & **Asset Management Web**
 
-<!-- 스택 -->
-<p><img src="https://skillicons.dev/icons?i=java,spring,postgres,svelte,js,py,git,linux" height="40"/></p>
 
-<!-- 통계 -->
-<div>
-  <img src="https://github-readme-stats.vercel.app/api?username=junseong00&show_icons=true&hide_border=true" height="155"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=junseong00&layout=compact&hide_border=true" height="155"/>
-</div>
 
 
 # study
